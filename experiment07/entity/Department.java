@@ -2,7 +2,7 @@ package com.experiments.experiment07.entity;
 
 import java.util.LinkedList;
 import java.util.List;
-
+//铁道部
 public class Department {
     private static List<Ticket> tickets = create();
 
