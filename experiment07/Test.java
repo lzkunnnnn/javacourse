@@ -41,5 +41,10 @@ public class Test {
         System.out.println(o2.getCount());
         System.out.println(o3.getCount());
 
+//        o3.getTickets().stream()
+//                .forEach(s -> {
+//                    System.out.println(s.getId());
+//                });
+
     }
 }

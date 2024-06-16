@@ -14,6 +14,14 @@ public class Outlet {
         this.name = name;
     }
 
+    public List<Ticket> getTickets() {
+        return tickets;
+    }
+
+    public void setTickets(List<Ticket> tickets) {
+        this.tickets = tickets;
+    }
+
     public Ticket sell(){
         Ticket ticket = null;
         try {
